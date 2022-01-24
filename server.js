@@ -21,7 +21,6 @@ app.use((req, res) => {
 
 // custom 500 page
 app.use((err, req, res, nex) => {
-    console.err(err.stack);
     res.status(500);
     res.render('500')
 });
