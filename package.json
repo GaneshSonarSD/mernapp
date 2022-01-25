@@ -1,6 +1,6 @@
 {
     "scripts" : {
-		"start" : "node index.js"
+		"start" : "node landing.html"
 	},
 	"dependencies": {
 		"express": "4.17.2",
